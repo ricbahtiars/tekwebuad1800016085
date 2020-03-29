@@ -5,7 +5,11 @@
   "projects": {
     "tekweb1800016085": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -88,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -123,6 +127,6 @@
   },
   "defaultProject": "tekweb1800016085",
   "cli": {
-    "analytics": "eef1f214-5990-47a8-967d-2a758acb4556"
+    "analytics": "73f01e19-7d91-462e-9423-ba61014e5564"
   }
 }
